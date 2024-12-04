@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- STEVEN FOLEY III -->
+<html lang="en">
+
+<head>
+
+<title>Irrestiible Frame</title>
+
+<meta charset="utf-8">
+<script src="p5/p5.js"></script>
+<script src="p5/addons/p5.sound.js"></script>
+<script src="p5/addons/p5.fillGradient.js"></script>
+<script src="p5/addons/p5.anims.js"></script>
+<script src="jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="controls" class="centered">
+        <h2>Nova Charisma - Irresistible Frame</h2>
+        <!-- Remove the AI part later -->
+        <p>A track from Metropolitan.</p>
+        
+        <p id="ai_interpretation"></p>
+
+        <div class="button" id="playButton" onclick="playSong()">Play</div>
+        <div class="button" id="pauseButton" onclick="pauseSong()">Pause</div>
+        <br><br>
+        <span id="volumeDisplay"></span><input type="range" value="50" min="0" max="100" id="volumeSlider">
+    </div>
+    
+    <script src="cubist.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <img src="/alt-content/Metropolitan.png"> -->
+</body>
+
+</html>
